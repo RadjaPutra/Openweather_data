@@ -1,0 +1,7 @@
+upload the csv file to BigQuery
+
+from database :
+SELECT weather, city, count(weather)
+FROM 'csv_Data.csv'
+group by weather, city;
+
